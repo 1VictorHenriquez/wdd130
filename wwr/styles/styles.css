@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 
-#content {
+body {
+    background-color: #fcfbfb;
+    font-family: 'Helvetica Neue', sans-serif;;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+
+#content{
     max-width: 1600px;
-    width:100%;
     margin: 0 auto;
+    width:100%;
 }
 
 nav a{
     text-align: center;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; 
+    padding: 35px;              
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -44,8 +57,11 @@ nav a:hover{
 
 .book, .join{
     background-color: #ff8600;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -55,11 +71,19 @@ nav a:hover{
 
 .msg{
     background-color: #758bfd;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
+.msg p{
+    padding-bottom: 15px;
+}   
 
 footer{
     background-color: #27187e;
     color: rgb(197, 197, 197);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer, a{
@@ -79,8 +103,13 @@ footer a:hover{
     color: #ff8600;
 }
 
+footer .social img {
+    padding-top: 15px;
+}  
+
 .home-title{
     color: #27187e;
+    margin-top: 10px;
 }
 h4{
     color: #fff;
@@ -92,8 +121,29 @@ h4{
 
 .logo{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+}
+.home-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+}
+
+#logo_link{
+    padding-top: 5px;
+}   
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
