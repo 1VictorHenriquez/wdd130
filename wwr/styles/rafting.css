@@ -23,11 +23,14 @@ p{
 .hero article{
     position: absolute;
     background-color: var(--accent2-color);
+    width: 75vw;
+	margin: 1rem auto;
+	padding: 1rem;
+	border: 1px solid rgb(0 0 0 / .1);
 }
 
 .hero article img{
     float: right;
-    margin: 20px;
 }
 
 h2{
