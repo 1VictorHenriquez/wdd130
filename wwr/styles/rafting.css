@@ -9,14 +9,18 @@
 
 p{
     color: var(--accent1-color);
-    font-family:'Poppins';
+    font-family:'Poppins', sans-serif;
 }
 
 .hero h1{
     color: var(--primary-color);
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 
+}
+
+h3{
+    color: var(--secondary-color);
 }
 
 
