@@ -7,6 +7,10 @@
 
 }
 
+.hero{
+    position: relative;
+}
+
 p{
     color: var(--accent1-color);
     font-family:'Poppins', sans-serif;
@@ -16,7 +20,12 @@ p{
     color: var(--primary-color);
     position: absolute;
     font-family: 'Roboto', sans-serif;
-
+    top: 2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+ 
 }
 
 h3{
@@ -28,15 +37,21 @@ h3{
 
 .hero article{
     position: absolute;
-    background-color: var(--accent2-color);
+    background-color: rgba(142, 202, 230, .8);
     width: 75vw;
-	margin: 1rem auto;
+	margin: 0 auto;
 	padding: 1rem;
 	border: 1px solid rgb(0 0 0 / .1);
+    top: 8rem;
+    left: 0;
+    right: 0;
+    height: 200px;
 }
 
-.hero article img{
+.peapleenjoying{
     float: right;
+    width: 420px;
+    height: auto;
 }
 
 h2{
@@ -47,12 +62,12 @@ h2{
     text-decoration: none;
 }
 
-.hero{
-    position: relative;
-}
-
 .hero img{
-    display: block;
+    
     width: 100%;
     height: auto;
+}
+.hero article img {
+    width: 200px;
+    float: right;
 }
