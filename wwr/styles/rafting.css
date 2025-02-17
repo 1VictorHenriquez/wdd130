@@ -7,6 +7,43 @@
 
 }
 
+header{
+    margin: 0 auto;
+	display: grid;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: auto;
+    grid-template-columns: 150px auto;
+    background-color: var(--accent1-color);
+}
+
+.logo{
+    margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+.navigation li {
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+    
+}
+
+.navigation {
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
 .hero{
     position: relative;
 }
@@ -28,9 +65,11 @@ p{
  
 }
 
-h3{
+figcaption{
     color: var(--secondary-color);
     font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
 
 }
 
@@ -54,20 +93,98 @@ h3{
     height: auto;
 }
 
+.title {
+    margin-bottom: 20px; 
+    display:flex;
+    justify-content: center;
+}
+
+.grid_container  {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center; 
+}
+
+.card {
+    text-align: center; 
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    border-radius: 8px; 
+}
+
 h2{
     color: var(--secondary-color);
 }
 
-.sociallinks{
-    text-decoration: none;
+.History {
+    text-align: center; 
+    padding: 20px; 
+  }
+  
+  .History_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .History_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .History_column img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+  }
+
+.sociallinks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto; 
 }
 
-.hero img{
-    
+.sociallinks p {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    color: #fff;
+  }
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero img{   
     width: 100%;
     height: auto;
 }
 .hero article img {
     width: 200px;
     float: right;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #ddd;
 }
