@@ -1,0 +1,353 @@
+:root{
+
+    --primary-color: #FB8500;
+    --secondary-color: #FFB703;
+    --accent1-color: #023047;
+    --accent2-color: #8ECAE6;
+ 
+ }
+ 
+ body{
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+}
+ 
+ header{
+     margin: 0 auto;
+     display: grid;
+     align-items: center;
+     border-bottom: 1px solid #ccc;
+     grid-template-columns: 150px auto;
+     background-color: #292929;
+ }
+ 
+ .logo{
+     margin: 0 0.25rem 0 1rem;
+     width: 64px;
+     height: auto;
+ }
+ 
+ .navigation li {
+     flex: 1 1 auto;
+ }
+ 
+ .navigation a {
+     display: block;
+     color: #fff;
+     padding: 20px;
+     text-decoration: none;
+     font-size: 1.2rem;
+     
+ }
+ 
+ .navigation {
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     padding: 0;
+     font-family: Arial, sans-serif;
+ }
+ 
+ .card {
+     text-align: center; 
+ }
+ 
+ .card img {
+     width: 100%; 
+     height: auto; 
+     display: block;
+     border-radius: 8px; 
+ }
+ 
+ h2{
+     color: var(--secondary-color);
+ }
+ 
+ .sociallinks {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       max-width: 1200px;
+       margin: 0 auto; 
+ }
+ 
+ .p_footer {
+     margin: 0;
+     text-align: center;
+     flex: 1;
+     color: #fff;
+   }
+ 
+ .icons {
+     display: flex;
+     gap: 10px;
+ }
+ 
+ .icons img {
+     width: 24px;
+     height: 24px;
+ }
+  .footer {
+     background-color: #292929;
+     margin: 0 auto;
+     width: 100%;
+     padding: 10px;
+     border-top: 1px solid #ddd;
+ }
+
+
+/* Sección 1: Hero Section */
+.hero-section {
+    background-image: url('rafting2.jpg'); /* Cambia 'fondo.jpg' por tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.descripcion {
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+
+/* Sección 2: Features Section */
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.feature-box {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.feature-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature-box h2 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Sección 3: Info Section */
+.info-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.info-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.info-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.info-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.info-content p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 40px 20px;
+text-align: center;
+}
+.trips-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+.trip {
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+}
+.trip img {
+width: 100%;
+height: auto;
+display: block;
+}
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.trip h3 {
+font-size: 1.5rem;
+font-weight: bold;
+margin: 0;
+}
+.highlight {
+width: 100%;
+height: 500px;
+background: url('award.png') no-repeat center center/cover;
+}
+
+h3 {
+    color: #fff;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+}
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f04e30;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.cta-button:hover {
+    background-color: #d43f26;
+}
+
+.p_cta{
+    color: #fff;
+}
+
+.trip-table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #222;
+    color: white;
+}
+.trip-table th, .trip-table td {
+    border: 1px solid #444;
+    padding: 15px;
+    text-align: center;
+}
+.trip-table th {
+    background-color: #333;
+}
+
+.container{
+    background-color: #067633;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+}
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.newsletter form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.newsletter label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.signup-button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f04e30;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+}
+.signup-button:hover {
+    background-color: #d43f26;
+}
